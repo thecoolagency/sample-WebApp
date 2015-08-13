@@ -1,0 +1,40 @@
+CACHE MANIFEST
+# Version 1
+
+CACHE:
+/
+index.html
+
+res/layout/activity_main.xml
+res/menu/main.xml
+res/values/strings.xml
+
+js/functions.js
+js/jquery-1.11.3.min.js
+
+styles/style.css
+http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css
+
+img/logo.png
+
+http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0
+http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0
+http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0
+
+styles/fonts/lato-regular-webfont.woff2
+styles/fonts/lato-regular-webfont.woff
+styles/fonts/lato-regular-webfont.ttf
+styles/fonts/lato-regular-webfont.eot
+styles/fonts/lato-bold-webfont.woff2
+styles/fonts/lato-bold-webfont.woff
+styles/fonts/lato-bold-webfont.ttf
+styles/fonts/lato-bold-webfont.eot
+
+FALLBACK:
+# This will enable imagename4.png to be as a replacement for 
+# all resources under the images dir when there is no network connectivity.
+# images/ images/offline.png
+
+NETWORK:
+*
+# This will prevent other network resources from being accessed.
