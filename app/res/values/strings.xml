@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Home Care</string>
+    <string name="app_name">Sample WebApp</string>
     <string name="action_settings">Settings</string>
     <string name="action_returnapp">Return</string>
     <string name="btn_ok">Ok</string>

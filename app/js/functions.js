@@ -1,5 +1,6 @@
 window.addEventListener("load", function() { window. scrollTo(0, 0); });
 
+/* creates dynamic clock */
 function show2() {
     if (document.all&&document.getElementById) {}
     else { 
@@ -19,31 +20,14 @@ function show2() {
         setTimeout("show2()", 1000); }
 } window.onload = show2;
 
-function openClose() {
-    if(document.getElementById('sideNav').checked) {
-        document.getElementById('appMain').setAttribute("class", "content");
-        document.getElementById('cgNav').setAttribute("class", "side-nav"); }
-    else {
-        document.getElementById('appMain').setAttribute("class", "content full");
-        document.getElementById('cgNav').setAttribute("class", "side-nav close"); }
-}
-
-function dropNew() {
-    if(document.getElementById('dropTop').checked) {
-        document.getElementById('popTop').setAttribute("class", "grid"); }
-    else {
-        document.getElementById('popTop').setAttribute("class", "grid dropped"); }
-}
-
+/* To support a links in fullscreen view on iOS */
 var a=document.getElementsByTagName("a");
 for(var i=0;i<a.length;i++) {
-    a[i].onclick=function()
-    {
+    a[i].onclick=function() {
         window.location=this.getAttribute("href");
         return false
     }
 }
-
 
 
 /*! iNoBounce - v0.1.0
